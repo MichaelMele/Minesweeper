@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{04E60495-D66F-417D-BA95-3F86356FD8B1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Project_1.My.MyApplication</StartupObject>
-    <RootNamespace>Project_1</RootNamespace>
+    <StartupObject>Minesweeper.My.MyApplication</StartupObject>
+    <RootNamespace>Minesweeper</RootNamespace>
     <AssemblyName>Minesweeper</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
@@ -126,6 +126,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -186,6 +187,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mine2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-03-08 155845.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
